@@ -52,8 +52,7 @@ In this project, you can run the following scripts:
 
 ## Screenshots
 
-![Screenshot 1](Screenshots/Screenshot1.png)
-*Main page*
+
 ![Screenshot 1](Screenshots/Screenshot2.png)
 *Main page*
 
@@ -61,8 +60,7 @@ In this project, you can run the following scripts:
 *Quiz page MCQ*
 ![Screenshot 1](Screenshots/Screenshot4.png)
 *Quiz page True or False*
-![Screenshot 1](Screenshots/Screenshot6.png)
-*Results page*
+
 ![Screenshot 1](Screenshots/Screenshot7.png)
 *Results page*
 ![Screenshot 1](Screenshots/Screenshot8.png)
