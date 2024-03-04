@@ -56,8 +56,7 @@ In this project, you can run the following scripts:
 *Main page*
 ![Screenshot 1](Screenshots/Screenshot2.png)
 *Main page*
-![Screenshot 1](Screenshots/Screenshot5.png)
-*loading the quiz page*
+
 ![Screenshot 1](Screenshots/Screenshot3.png)
 *Quiz page MCQ*
 ![Screenshot 1](Screenshots/Screenshot4.png)
@@ -68,7 +67,3 @@ In this project, you can run the following scripts:
 *Results page*
 ![Screenshot 1](Screenshots/Screenshot8.png)
 *Response sheet*
-![Screenshot 1](Screenshots/Screenshot9.png)
-*Offline page*
-![Screenshot 1](Screenshots/Screenshot10.png)
-*Results print*
