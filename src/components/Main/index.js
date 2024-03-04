@@ -15,6 +15,8 @@ import {
 
 import mindImg from '../../images/mind.svg';
 
+import collegeQuizData from "../Quiz/mock.json";
+
 import {
   CATEGORIES,
   NUM_OF_QUESTIONS,
@@ -30,11 +32,11 @@ import Offline from '../Offline';
 const Main = ({ startQuiz }) => {
   const [category, setCategory] = useState('0');
   const [numOfQuestions, setNumOfQuestions] = useState(5);
-  const [difficulty, setDifficulty] = useState('easy');
+  const [difficulty, setDifficulty] = useState('0');
   const [questionsType, setQuestionsType] = useState('0');
   const [countdownTime, setCountdownTime] = useState({
     hours: 0,
-    minutes: 120,
+    minutes: 1800,
     seconds: 0,
   });
   const [processing, setProcessing] = useState(false);
@@ -69,6 +71,22 @@ const Main = ({ startQuiz }) => {
 
     if (error) setError(null);
 
+    let quizData;
+
+    if (category === 'college') {
+      // Use mock data for college quiz
+      quizData = collegeQuizData;;
+      setTimeout(() => {
+        startQuiz(
+          quizData,
+          countdownTime.hours + countdownTime.minutes + countdownTime.seconds,
+          userDetails
+        );
+        setProcessing(false);
+      }, 1000);
+      return;
+    }
+
     const API = `https://opentdb.com/api.php?amount=${numOfQuestions}&category=${category}&difficulty=${difficulty}&type=${questionsType}`;
 
     fetch(API)
@@ -95,7 +113,7 @@ const Main = ({ startQuiz }) => {
 
             return;
           }
-
+          
           results.forEach(element => {
             element.options = shuffle([
               element.correct_answer,
@@ -181,6 +199,10 @@ const Main = ({ startQuiz }) => {
                   disabled={processing}
                 />
                 <br />
+                {category === 'college' ? (
+                <div>
+                </div>
+                ):(<div>
                 <p>How many questions do you want in your quiz?</p>
                 <Dropdown
                   fluid
@@ -254,6 +276,7 @@ const Main = ({ startQuiz }) => {
                   onChange={handleTimeChange}
                   disabled={processing}
                 />
+                </div>)}
               </Item.Meta>
               <Divider />
               <Item.Extra>
