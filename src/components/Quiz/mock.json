@@ -1,56 +1,77 @@
 [
+  
   {
     "category": "Science: Computers",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
-    "correct_answer": "center",
-    "incorrect_answers": ["static", "absolute", "relative"],
-    "options": ["static", "relative", "center", "absolute"]
+    "question": "In ALTS - Anantha Lakshmi Institute of Technology, which department is considered the best?",
+    "correct_answer": "CSE",
+    "incorrect_answers": ["ECE", "MECH", "CIVIL"],
+    "options": ["MECH", "ECE", "CIVIL", "CSE"]
+  },
+  
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "AIML in ALTS stands for",
+    "correct_answer": "Artificial Intelligence and Machine Learning",
+    "incorrect_answers": ["Advanced Integrated Mobile Learning", "Automated Information Management Lab", "Adaptive Image Manipulation Language"],
+    "options": ["Automated Information Management Lab", "Adaptive Image Manipulation Language", "Artificial Intelligence and Machine Learning", "Advanced Integrated Mobile Learning"]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What does CSS stand for in the context of ALTS - Anantha Lakshmi Institute of Technology?",
+    "correct_answer": "Computer Science",
+    "incorrect_answers": ["Creative Style Sheets", "Centralized Server Systems", "Cyber Security Software"],
+    "options": ["Creative Style Sheets", "Centralized Server Systems", "Cyber Security Software", "Computer Science"]
   },
   {
     "category": "Science: Computers",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "How long is an IPv6 address?",
-    "correct_answer": "128 bits",
-    "incorrect_answers": ["32 bits", "64 bits", "128 bytes"],
-    "options": ["128 bits", "64 bits", "128 bytes", "32 bits"]
+    "question": "In ALTS, which department is associated with Artificial Intelligence and Machine Learning?",
+    "correct_answer": "CSE",
+    "incorrect_answers": ["ECE", "MECH", "CIVIL"],
+    "options": ["MECH", "ECE", "CIVIL", "CSE"]
   },
   {
     "category": "Science: Computers",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "In the server hosting industry IaaS stands for...",
-    "correct_answer": "Infrastructure as a Service",
-    "incorrect_answers": [
-      "Internet as a Service",
-      "Internet and a Server",
-      "Infrastructure as a Server"
-    ],
-    "options": [
-      "Infrastructure as a Service",
-      "Internet and a Server",
-      "Internet as a Service",
-      "Infrastructure as a Server"
-    ]
+    "question": "Which programming language is commonly used for web development at ALTS?",
+    "correct_answer": "JavaScript",
+    "incorrect_answers": ["Python", "Java", "C++"],
+    "options": ["Java", "Python", "C++", "JavaScript"]
+  },
+  
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which data structure is commonly used for implementing a LIFO behavior at ALTS?",
+    "correct_answer": "Stack",
+    "incorrect_answers": ["Queue", "Linked List", "Tree"],
+    "options": ["Queue", "Linked List", "Tree", "Stack"]
   },
   {
     "category": "Science: Computers",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "How many bits make up the significand portion of a single precision floating point number?",
-    "correct_answer": "23",
-    "incorrect_answers": ["8", "53", "15"],
-    "options": ["53", "15", "8", "23"]
+    "question": "What does HTML stand for at ALTS?",
+    "correct_answer": "Hypertext Markup Language",
+    "incorrect_answers": ["Hyperlink and Text Management Language", "High-Level Text Manipulation Language", "Human-Machine Translation Language"],
+    "options": ["Hyperlink and Text Management Language", "High-Level Text Manipulation Language", "Human-Machine Translation Language", "Hypertext Markup Language"]
   },
   {
     "category": "Science: Computers",
     "type": "multiple",
-    "difficulty": "medium",
-    "question": "In programming, what do you call functions with the same name but different implementations?",
-    "correct_answer": "Overloading",
-    "incorrect_answers": ["Overriding", "Abstracting", "Inheriting"],
-    "options": ["Overriding", "Inheriting", "Abstracting", "Overloading"]
+    "difficulty": "easy",
+    "question": "At ALTS, what is the primary function of the operating system?",
+    "correct_answer": "Manage hardware and software resources",
+    "incorrect_answers": ["Play multimedia files", "Connect to the internet", "Create documents"],
+    "options": ["Play multimedia files", "Connect to the internet", "Create documents", "Manage hardware and software resources"]
   }
 ]
