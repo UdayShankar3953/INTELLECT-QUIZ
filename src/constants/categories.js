@@ -1,8 +1,14 @@
 const CATEGORIES = [
+
   {
     key: '0',
     text: 'Any Category',
     value: '0',
+  },
+  {
+    key: 'college',
+   text: 'College Quiz',
+   value: 'college',
   },
   {
     key: 9,
