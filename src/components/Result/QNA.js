@@ -4,7 +4,7 @@ import {Segment, Table ,Header} from 'semantic-ui-react';
 import DownloadReportButton from '../DownloadReportButton';
 
 
-const QNA = ({ questionsAndAnswers }) => {
+const QNA = ({ questionsAndAnswers,userDetails, }) => {
   return (<Segment>
     <Header as="h3" textAlign="center" block>
         User Name: {userDetails.name} {/* Display user's name */}
