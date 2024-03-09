@@ -49,7 +49,7 @@ const Result = ({
           userDetails={userDetails} // Pass userDetails to Stats
         />
       )}
-      {activeTab === 'QNA' && <QNA questionsAndAnswers={questionsAndAnswers} />}
+      {activeTab === 'QNA' && <QNA questionsAndAnswers={questionsAndAnswers} userDetails={userDetails} />}
       <br />
     </Container>
   );
