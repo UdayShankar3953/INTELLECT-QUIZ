@@ -1,9 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Table } from 'semantic-ui-react';
+import {Segment, Table ,Header} from 'semantic-ui-react';
+import DownloadReportButton from '../DownloadReportButton';
+
 
 const QNA = ({ questionsAndAnswers }) => {
-  return (
+  return (<Segment>
+    <Header as="h3" textAlign="center" block>
+        User Name: {userDetails.name} {/* Display user's name */}
+      </Header>
+      <Header as="h3" textAlign="center" block>
+        User ID: {userDetails.id} {/* Display user's ID */}
+      </Header>
     <Table celled striped selectable size="large">
       <Table.Header>
         <Table.Row>
@@ -26,11 +34,18 @@ const QNA = ({ questionsAndAnswers }) => {
         ))}
       </Table.Body>
     </Table>
+
+    <DownloadReportButton />
+    </Segment>
   );
 };
 
 QNA.propTypes = {
   questionsAndAnswers: PropTypes.array.isRequired,
+  userDetails: PropTypes.shape({ // Define shape for userDetails prop
+    name: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default QNA;
