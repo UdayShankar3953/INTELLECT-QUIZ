@@ -17,7 +17,7 @@
 - [Open Trivia Database API](https://opentdb.com/api_config.php)
 
 ## Live App
-[Live Demo](https://)
+[Live Demo](https://udayshankar3953.github.io/INTELLECT-QUIZ/)
 
 
 ## Development
