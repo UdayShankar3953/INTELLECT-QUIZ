@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="">
-    QuizApp
+    INTELLECT-QUIZ App
   </a>
 </h1>
 
