@@ -13,7 +13,7 @@ import {
   Input
 } from 'semantic-ui-react';
 
-import mindImg from '../../images/mind.webp';
+import mindImg from '../../images/mind.png';
 
 import collegeQuizData from "../Quiz/mock.json";
 
